@@ -1,0 +1,471 @@
+body
+	{
+		background-color:#747476;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		max-height:100%;
+		max-width:100%;
+	}
+
+
+
+
+
+
+header
+	{	
+
+		background-color: #44739D;
+		width:100%;
+		border-color:#353535;
+ 		border-style:solid;
+ 		border-radius:8px;
+ 		margin-left:-3px;
+ 		box-shadow: 0 0 150px black;
+	}
+
+/* box-shadow used throughout page to give dynamic feel */ 
+
+.headercontainer
+ 	{
+ 		text-align: center;
+ 		border-color:#242424;
+ 		border-style:solid;
+ 		border-radius:5px;
+
+	 }
+
+/* Outter/master frame of the header*/ 
+
+.headerall
+	{
+		height:150px;
+		display:inline-block;
+		position:relative;
+
+	}
+
+/* class assigned to all images within the header */ 
+
+#headerlogo
+	{
+		margin-left: 1px;
+		border-color:#353535;
+		border-bottom:#d83048;
+		border-style:solid;
+	}
+
+
+#headergirl
+	{
+		width:228px;
+	}
+
+/* ID selectors tagged to relevant images */ 
+
+
+h1
+	{
+		display:block;
+		text-align: center;
+		font-size:18pt;
+		font:sans-serif;
+		font-weight:lighter;
+		color:white;
+		background-color:#d83048;
+		margin-top:-7px;
+		width:84.5%;
+		margin-left:auto;
+		margin-right:auto;
+		border-color:#353535;
+		border-style:solid;
+
+	}
+
+/* Header text */ 
+
+
+
+nav ul
+	{
+
+		text-align:center;
+		padding:0;
+		margin:0;
+		overflow: auto;
+    	margin: auto;
+    	padding-bottom:5px;
+    	padding-top:5px;
+    	margin-bottom:10px;
+    	background-color: #353535;
+
+	}
+
+	/* Navigation bar */ 
+nav li
+	{	
+		font-size:10pt;
+		display: inline-block;
+		line-height:40px;
+		height: 40px;
+  		border-color:#303030;
+  		border-style:solid;
+  		border-radius:5px;
+  		color: #ffffff;
+  		background-color: #44739D;
+  		padding-left:24px;
+  		padding-right:24px;
+
+	}
+
+nav a
+	{
+
+		text-decoration: none;
+		color: #ffffff;
+	}	
+	
+/* Hover attribute to create sense of interactivity with navigation */ 
+
+nav li:hover
+	{
+		color: white;
+		box-shadow: 0 0 20px #44739D;
+	}
+nav a:hover
+	{
+		color: white;
+	}
+
+
+
+
+
+/* Class .introtext assigned to every text box to ensure visual symmetry throughout page*/ 
+.introtext
+	{
+		font-weight: normal;
+		font-size:11pt;
+		text-align: center;
+		text-align: justify;
+		padding-top:10px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-bottom:10px;
+		border-style:solid;
+		border-color:#44739D;
+		border-radius:8px;
+
+
+
+	}
+
+/*Individual textbox ID's below */ 
+#intro1
+	{
+		width: 80%;
+		color: black;
+		background-color:  #DFDFDF;
+		height:100%;
+		margin:auto;
+	}
+
+#intro2
+	{
+		width: 80%;
+		color: black;
+		background-color:  #DFDFDF;
+		height:100%;
+		margin:auto;
+		margin-top:5%;
+	}
+
+#intro3
+	{
+		width: 80%;
+		color: black;
+		background-color:  #DFDFDF;
+		margin-top:30px;
+		height:100%;
+		margin:auto;
+		margin-top:5%;
+	}
+
+
+#intro4
+	{
+		width: 80%;
+		color: black;
+		background-color:  #DFDFDF;
+		margin-top:30px;
+		height:100%;
+		margin:auto;
+		margin-top:5%;
+	}
+
+
+/* Class selector for each image in the text boxes */ 
+.intropic
+	{
+		float:left;
+		margin-left:10px;
+		margin-right:8px;
+		clear:both;
+
+	}
+
+/* Individual ID selectors for images */ 
+#researchlogo
+
+	{
+		border-style:dotted;
+		border-color:#353535;
+	}
+
+#codelogo
+
+	{
+		border-style:dotted;
+		border-color:#378648;
+		float:right;
+		margin-top:15px;
+	}
+
+#pythonlogo
+
+	{
+		float:right;
+		width:300px;
+		border-style:dotted;
+		border-color:#44739D;
+
+	
+	}
+
+#javalogo
+
+	{
+		width:300px;
+		border-style:dotted;
+		border-color:#d6626a;
+
+	
+	}
+
+/* Individual hover attributes for each image */ 
+
+#researchlogo:hover
+
+ 	{ 
+ 		box-shadow: 0 0 30px #353535;
+
+ 	}
+
+
+#codelogo:hover
+
+ 	{ 
+ 		box-shadow: 0 0 30px #378648;
+
+ 	}
+
+
+#pythonlogo:hover
+
+ 	{ 
+ 		box-shadow: 0 0 50px #44739D;
+
+ 	}
+
+#javalogo:hover
+	{
+		box-shadow: 0 0 50px #d6626a;
+
+	}
+
+
+/* Hyperlink box with a background*/ 
+#parabox
+
+	{
+		background-image: url('images/studentsbackground.jpg');
+		background-repeat:no-repeat;
+		background-size:800px;
+		background-color:#DFDFDF;
+		width:40%;
+		background-color:white;
+		border-color:#378648;
+		margin-top:40px;
+		margin-bottom:100px;
+		margin-left:15%;
+		float:left;
+		display:inline-block;
+		position:relative;
+		list-style:none;
+
+	}
+
+.parahyper
+
+	{
+
+	 color: white;   
+     background: rgb(0, 0, 0);
+     background: rgba(0, 0, 0, 0.7);
+	 padding: 10px; 
+	 text-align:center;
+
+	}
+
+.parahyper:hover
+
+	{	
+		box-shadow: 0 0 20px #EBEBEB;
+
+	}
+
+a
+	{		
+		color: #ffffff;
+
+	}
+
+
+/* Styling for social media bar*/ 
+#socialbuttons
+
+	{	
+		width:24%;
+		margin-top:100px;
+		padding-left:10px;
+		padding-top:8px;
+		color: black;
+		background-color:  transparent;
+		border-style:dashed;
+		border-color:#44739D;
+		float:right;
+		display:inline-block;
+		margin-right:30%;
+		position:absolute;
+
+	}
+
+#socialbuttons:hover
+
+	{
+	 	box-shadow: 0 0 100px #44739D;
+
+	}
+
+
+
+
+/* Footer styling */ 
+footer
+
+	{
+	
+		clear:both;
+		background-color:#44739D;
+		width:100%;
+		text-align:center;
+		height:30px;
+
+	}
+
+.footlink
+
+	{
+		padding-left:1.5%;
+		padding-right:1.5%;
+		color:white;
+		text-decoration:none;
+		font-size:8pt;
+	}
+
+
+
+/* Media screen adjustments made on two levels. 1100Pixels and 700Pixels */ 
+@media screen and (max-width: 1100px){
+
+/* Images ommitted */ 
+#headergirl
+{
+	display:none;
+}
+#headerbanner
+{
+	display:none;
+}
+
+
+
+@media screen and (max-width: 700px){
+
+
+/* More images ommitted. Some resized*/ 
+
+#headergirl
+{
+	display:none;
+}
+#headerlab
+{
+	display:none;
+}
+#headerbanner
+{
+	display:none;
+}
+
+#headerlogo
+{
+	height:100px;
+	width:100px;
+}
+
+#researchlogo
+{
+display:none;
+}
+
+#javalogo
+{
+display:none;
+}
+
+.intropic
+{
+	max-height:70%;
+	max-width:70%;
+}
+
+/* Navigation bar adjusted */ 
+nav li
+{
+	font-size:8pt;
+}
+
+h1
+{
+	font-size:10pt;
+}
+
+.twitter-follow-button
+{
+	display:none;
+}
+
+/* Hyperlink box background changed to solid color*/ 
+#parabox
+{
+	background-image:none;
+	background-color:#58A239;
+}
+
+/* Footer adjusted to mobile friendly style */ 
+footer
+{
+	height:100%;
+	font-size:5pt;
+}
+
